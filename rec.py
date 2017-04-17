@@ -8,8 +8,8 @@ import sys
 CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 2
-RATE = 176400
-RECORD_SECONDS = 10
+RATE = 8192
+RECORD_SECONDS = 2
 WAVE_OUTPUT_FILENAME = sys.argv[1]
 p = pyaudio.PyAudio()
 stream = p.open(format=FORMAT,
